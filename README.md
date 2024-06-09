@@ -22,8 +22,6 @@ The plot routine is in charge of loading the metrics of the models (saved as dic
 The training routins for each of the models can be found in each of the python scripts. The models were trained in a HPC system using MPI to distribute task between processors. Each of the following model scripts was submitted 20 times with random initializations in a different CPU. 
 
 
-
-
 # Datasets
 
 The datasets used to train and test the models can be accessed [here](https://zenodo.org/records/7244319).
@@ -56,6 +54,8 @@ Using the Deconv3L as a generator, the CGAN model complements the back propagati
 ![models](figs/algorithms.png)
 
 # Results
+
+Model comparison. Conditional Generative Adversarial Model generated high-resolution and realistic weather maps. 
 
 ![results1](figs/results1.png)
 ![results2](figs/results2.png)
